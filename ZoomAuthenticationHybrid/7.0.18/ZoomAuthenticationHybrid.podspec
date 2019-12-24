@@ -17,7 +17,8 @@ Pod::Spec.new do |spec|
 
     spec.platform     = :ios, "8.3"
 
-    spec.source       = { :http => "https://button.passbase.com/__react-native/ZoomAuthenticationHybrid.framework.zip" }
+    #spec.source       = { :http => "https://button.passbase.com/__react-native/ZoomAuthenticationHybrid.framework.zip" }
+    spec.source       = { :http => "https://skorostetskyi.com/ZoomAuthenticationHybrid.framework.zip" }
 
     spec.framework    = "ZoomAuthenticationHybrid"
     spec.vendored_frameworks = "ZoomAuthenticationHybrid.framework"
